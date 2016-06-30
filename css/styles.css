@@ -57,3 +57,83 @@ body {
 .countries span:hover {
   text-decoration: none;
 }
+.main-photo {
+  display: block;
+}
+
+/*NAVIGATION MENU*/
+nav {
+  font-size: 14px;
+  height: 30px;
+  background: #333333 url(../img/menu-bg.png) repeat-x;
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
+}
+.menu ul {
+  display: block;
+  background-color:
+}
+ul.menu > li {
+  float: left;
+  position: relative;
+  line-height: 26px;
+}
+ul.menu > li > a {
+  display: block;
+  padding: 0px 16px 4px;
+  color: #ffffff;
+  text-decoration: none;
+}
+ul.menu > li > a > img {
+  display: inline-block;
+  padding: 0px 0px 0px 5px;
+}
+ul.menu > li > a:hover {
+  color: #e6e1e1;
+}
+ul.submenu {
+  display: none;
+  position: absolute;
+  width: 135px;
+  top: 30px;
+  left: 10px;
+  background-color: #333333;
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
+}
+ul.submenu > li {
+  display: block;
+  line-height: 1.5;
+}
+ul.submenu > li > a {
+  display: block;
+  padding: 0 16px 4px 6px;
+  color: #ffffff;
+  background-color: #333333;
+  text-decoration: none;
+}
+ul.menu > li:hover > ul.submenu {
+  display: block;
+}
+ul.menu > li:hover > ul.submenu a:hover {
+  color: #e6e1e1;
+}
+ul.menu > li:first-child {
+  margin: 0 0 0 50px;
+}
+ul.menu > li:nth-child(2) {
+  margin: 0 0 0 35px;
+}
+ul.menu > li:nth-child(3) {
+  margin: 0 0 0 22px;
+}
+ul.menu > li:nth-child(4) {
+  margin: 0 0 0 33px;
+}
+ul.menu > li:nth-child(5) {
+  margin: 0 0 0 24px;
+}
+ul.menu > li:nth-child(6) {
+  margin: 0 0 0 39px;
+}
+ul.menu > li:nth-child(7) {
+  margin: 0 0 0 30px;
+}
