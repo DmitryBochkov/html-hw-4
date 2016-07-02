@@ -151,7 +151,8 @@ main {
 }
 .column-1,
 .column-3 {
-  width: 208px;
+  box-sizing: border-box;
+  width: 210px;
   float: left;
   background: #edeef0;
   padding-bottom: 20000px;
@@ -160,6 +161,7 @@ main {
   border-right: 1px solid #c7cacf;
 }
 .column-2 {
+  box-sizing: border-box;
   width: 580px;
   float: left;
   padding-bottom: 20000px;
