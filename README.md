@@ -1,4 +1,4 @@
-# html-hw-4
+# Training project - html-hw-4
 Home page created on the basis of <a href="https://github.com/goit-fe/markup_fe2o/blob/master/html_04/homework4.psd">the PSD template</a>.
 <p>CSS techniques:</p>
 <ul>
